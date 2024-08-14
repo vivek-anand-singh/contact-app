@@ -8,6 +8,8 @@ function App() {
   return (
     <div>
       <Header />
+      <AddContact />
+      <ContactList />
     </div>
   );
 }
