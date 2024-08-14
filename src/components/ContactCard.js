@@ -3,7 +3,7 @@ import user from "../images/istockphoto-1337144146-612x612.jpg"
 
 const CardContact = (props) =>
 {
-    const {id, name, email} = props.contact;
+    const {name, email} = props.contact;
     return (
         <div className="item">
             <img className="ui avatar image" src={user} alt="user"/>
